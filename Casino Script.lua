@@ -16,8 +16,8 @@
 		2. Avoid using high values as accepted amounts of cash. Consider the following limits when you change settings:
 		
 			Blackjack, High/Low, Highest/Lowest & Odd/Even
-				Minimum: 0.1k - 200k
-				Maximum: 0.2k - 500k
+				Minimum: 50k - 200k
+				Maximum: 500k - 500k
 				Payout: 1 - 100%
 				
 			First/Second/Last, Sequence & Pair Of Numbers
@@ -65,7 +65,7 @@
 	
 	-- Decoration --
 	_Decoration_Enabled = false													-- Use decoration under dice		
-	_Decoration_Item = "Ectoplasmic Sushi"										-- Name of item to use as decoration | Default: "Ectoplasmic Sushi"
+	_Decoration_Item = "treasure chest"										-- Name of item to use as decoration | Default: "Ectoplasmic Sushi"
 	
 	-- Randomizer --
 	_VirtualMode_	= true														-- User a virtual method to generate random numbers (Replacement for Official servers)
@@ -74,7 +74,7 @@
 --											A D V A N C E D   S E T U P											--
 ------------------------------------------------------------------------------------------------------------------
 	-- Effects --
-	_Effects_Enabled = true														-- Use item effects
+	_Effects_Enabled = false													-- Use item effects
 	_Effects_Item = "Party Hat"													-- Name of the item to show effects
 	_Effects_Interval = 1														-- How often to show effects | Default: 1 second | WARNING: Low values may affect performance
 	
